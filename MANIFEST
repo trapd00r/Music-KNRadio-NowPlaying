@@ -1,0 +1,17 @@
+lib/Music/KNRadio/NowPlaying.pm
+bin/knnp
+Makefile.PL
+MANIFEST
+README
+00-load.t
+01-pod.t
+10-strict.t
+20-synopsis.t
+30-eol.t
+30-fixme.t
+30-notabs.t
+40-kwalitee.t
+50-complexity.t
+60-pod-coverage.t
+60-pod-syntax.t
+80-minperl.t
