@@ -6,7 +6,7 @@ use vars     qw($VERSION);
 use autodie  qw(:all);
 
 my $APP  = 'knnp';
-$VERSION = '0.002';
+$VERSION = '0.003';
 
 use lib '../lib';
 
@@ -24,7 +24,7 @@ $ARGV[0] = '-c' unless @ARGV;
 GetOptions(
   'd|dzen'    => \&np_dzen,
   'c|color'   => \&np_256,
-  'p|plain'   => \&np,
+  'p|plain'   => \&np_plain,
   'v|version' => \&version,
   'h|help'    => sub { pod2usage(verbose => 1); exit },
 );
