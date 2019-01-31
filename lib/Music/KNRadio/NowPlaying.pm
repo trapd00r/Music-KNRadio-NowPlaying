@@ -8,7 +8,7 @@ BEGIN {
   use vars qw($VERSION @ISA @EXPORT_OK %EXPORT_TAGS);
   @ISA = qw(Exporter);
 
-  $VERSION = '0.003';
+  $VERSION = '0.004';
   @EXPORT_OK = qw(knnp);
 }
 
@@ -59,7 +59,6 @@ Music::KNRadio::NowPlaying - Now playing metadata for Karlstad Rock 92.2
 =head1 SYNOPSIS
 
     use Music::KNRadio::NowPlaying qw(knnp);
-    use feature qw(say);
 
     my $info = knnp();
 

@@ -3,7 +3,6 @@ NAME
 
 SYNOPSIS
         use Music::KNRadio::NowPlaying qw(knnp);
-        use feature qw(say);
 
         my $info = knnp();
 
@@ -27,6 +26,9 @@ FUNCTIONS
         $info->{artist} => 'Laleh'
         $info->{title}  => 'Der Yek Gooshe'
         $info->{state}  => 'playing'
+
+Scripts
+    An example script is provided in the bin/ directory as knnp.
 
 REPORTING BUGS
     Report bugs and/or feature requests on rt.cpan.org, the repository issue
