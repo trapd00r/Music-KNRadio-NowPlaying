@@ -30,7 +30,6 @@ WriteMakefile1(
     'Term::ExtendedColor'       => '0',
     'Term::ExtendedColor::Dzen' => '0',
   },
-  MIN_PERL_VERSION             => 5.0010,
   MAN1PODS                     => { },
   dist                         => { COMPRESS => q{gzip -9f},    SUFFIX => q{gz}, },
   clean                        => { FILES    => q{},                  },
